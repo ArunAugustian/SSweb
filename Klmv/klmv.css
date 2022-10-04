@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,600;1,100;1,300&family=Roboto:ital,wght@0,400;0,500;0,700;1,100;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.main-body{
+    background:url(/Klmv/images/klmv1\ \(1\).jpg);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    opacity: .8;
+    
+}
+.div-title{
+    
+    color: white;
+    position: relative;
+    top:320px;
+    left: 40px;
+}
+.title{
+    font-size: 70px;
+    text-shadow: 20px;
+}
+title1{
+    font-size: 50px;
+}
+.form_login{
+    width: 300px;
+    position: absolute;
+    right: 150px;
+    top: 120px;
+    border-radius: 5px;
+    border: 1px solid black;
+    background-color: rgba(1, 1, 14, 0.363);
+    color:white;
+}
+.btn{
+    margin-left: 100px;
+    margin-bottom: 10px;
+}
+.div_marquee{
+    width: 100%;
+    height: 40px;
+   margin-top: 400px;
+   background-color: rgba(31, 5, 179, 0.445);
+   color: white;
+   font-size: 20px;
+
+}
+.ul_feeders{
+
+}
+.ul_feeders1{
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    padding-top: 4px;
+}
+.ul_feeders1 li{
+    background-color: green;
+    padding: 3px;
+    border-radius: 5px;
+    
+}
+.ul_feeders1 li a{
+    color: white;
+    text-decoration: none;
+    border: 1px solid green;  
+}
+.ul_feeders1 li .BVC{
+    background-color: red;
+    border-radius: 5PX;
+    padding: 3PX;
+}
+.row .col-4{
+    height: 500px;
+}
+.row .col-8{
+    height: 500px; 
+      
+}
+.map{
+    line-height: 30px;
+}
+.klmv_imgdiv{
+    display: flex;
+    justify-content: space-around;
+}
+.klmv_img{
+
+    width: 150px;
+    height: 150px;
+}
+.para_about{
+    text-indent: 60px;
+}
+.duty_staff{
+    width: 70%;
+    height: 189px;
+    background-color: blue;
+    margin-left: 20%;
+    padding: 5px;
+    border-radius: 4px
+}
+table{
+  background-color: white;
+    width: 100%;
+    
+}
+.table_2{
+    margin-top: 5px;
+    
+}
+table tr .td1 {
+    border: 4px solid blue;
+}
+table tr .td2{
+    text-align: center;
+    border: 4px solid blue;
+}
+
+.select_duty{
+    width: 100%;
+}
